@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import router, { useRouter } from "next/router";
+import { useRouter } from "next/router";
 import React from "react";
 import Header from "./Header";
 import MainContainer from "./MainContainer";
@@ -29,8 +29,10 @@ function Layout({ children }: any) {
         <Image
           src={laptopImg}
           fill
+          priority
           style={{
-            objectFit: "contain",
+            // !cover ostaje ista, contain se smanjuje sa ekranom
+            objectFit: "cover",
           }}
           className="fixed top-0 left-0 
           -z-10"
