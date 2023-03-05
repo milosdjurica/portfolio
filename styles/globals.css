@@ -5,14 +5,25 @@
 @layer base {
   body {
     @apply min-h-screen tracking-wide
+    bg-gray-200 dark:bg-black
         /* text-black bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-200 via-gray-300 to-gray-500
-        dark:text-white dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] dark:from-gray-700 dark:via-gray-900 dark:to-black; */
+        dark:text-white dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] dark:from-gray-700 dark:via-gray-900 dark:to-black; */;
   }
 }
 
 @layer components {
   .themeChanger {
     @apply rounded-full flex justify-center items-center
-     bg-gray-300 dark:bg-gray-700;
+    bg-gray-300 dark:bg-gray-700;
+  }
+}
+
+@layer utilities {
+  .green-text {
+    @apply  text-[#18D26E]
+    /* text-green-600 dark:text-[#29ff30] */;
+  }
+  .green-underline{
+    @apply border-b-2 border-[#18D26E]
   }
 }
