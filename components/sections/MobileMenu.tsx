@@ -15,7 +15,7 @@ function MobileMenu() {
         <>
           <div className="fixed z-10 top-0 left-0 w-full h-full bg-black/80">
             <div
-              className="relative mx-auto my-10 p-4 w-[80%] sm:w-[80%]
+              className="relative mx-auto my-10 p-6 w-[80%] sm:w-[80%]
               space-y-10 bg-black/90 z-10
               rounded-lg shadow-lg shadow-[#18D26E]"
             >
@@ -34,10 +34,15 @@ function MobileMenu() {
               >
                 {links.map((link): any => {
                   if (router.pathname === link.url) {
-                    return <h3 className="green-text">{link.title}</h3>;
+                    return (
+                      <h3 key={link.url} className="green-text">
+                        {link.title}
+                      </h3>
+                    );
                   }
                   return (
                     <Link
+                      key={link.url}
                       onClick={() => setIsOpenMenu(!isOpenMenu)}
                       href={link.url}
                     >

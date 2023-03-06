@@ -12,7 +12,7 @@ function TechnologiesUsed({ technologies }: Props) {
 
       <div className="grid grid-cols-1 md:grid-cols-2">
         {technologies.map((tech): any => (
-          <div className="flex items-center m-2 space-x-2">
+          <div key={tech} className="flex items-center m-2 space-x-2">
             <BsCheckCircle
               className="rounded-full w-5 h-5 green-text 
             shadow-lg shadow-[#18D26E]"

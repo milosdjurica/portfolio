@@ -24,7 +24,7 @@ function Layout({ children }: any) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="relative">
+      <div className="relative min-h-screen">
         <Header />
         <Image
           // stars or feather ronaldo

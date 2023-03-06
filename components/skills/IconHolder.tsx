@@ -8,6 +8,7 @@ type Props = {
 function IconHolder({ icon, title }: Props) {
   return (
     <div
+      key={title}
       className="font-bold green-text w-40 py-2 m-2
       rounded-md 
       shadow-sm shadow-[#18D26E]

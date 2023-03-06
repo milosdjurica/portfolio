@@ -15,12 +15,12 @@ export const links = [
     url: "/skills",
     title: "Skills",
   },
-  {
-    url: "/resume",
-    title: "Resume",
-  },
-  {
-    url: "/contact",
-    title: "Contact",
-  },
+  // {
+  //   url: "/resume",
+  //   title: "Resume",
+  // },
+  // {
+  //   url: "/contact",
+  //   title: "Contact",
+  // },
 ];
