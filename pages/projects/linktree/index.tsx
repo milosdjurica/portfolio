@@ -10,7 +10,11 @@ function Linktree() {
       <TitleAndIcons title="LINKTREE CLONE" />
 
       <div className="space-y-20">
-        <DemoCodeProject image={linktreeImg} />
+        <DemoCodeProject
+          image={linktreeImg}
+          demo="https://milosdjurica-linktree.vercel.app/"
+          code="https://github.com/milosdjurica/nextjs-linktree"
+        />
 
         <div
           className="space-y-10 md:space-y-0

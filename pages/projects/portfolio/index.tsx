@@ -10,7 +10,11 @@ function Portfolio() {
       <TitleAndIcons title="MY PERSONAL SITE" />
 
       <div className="space-y-20">
-        <DemoCodeProject image={homeImg} />
+        <DemoCodeProject
+          image={homeImg}
+          demo="/"
+          code="https://github.com/milosdjurica/portfolio"
+        />
 
         <div
           className="space-y-10 md:space-y-0
