@@ -1,7 +1,8 @@
 import TitleAndIcons from "@/components/TitleAndIcons";
 import React from "react";
-import ProjectCard from "@/components/ProjectCard";
+import ProjectCard from "@/components/project/ProjectCard";
 import linktreeImg from "@/public/assets/linktree/linktree.png";
+import homeImg from "@/public/assets/portfolio/home.png";
 
 function Projects() {
   return (
@@ -18,14 +19,9 @@ function Projects() {
           img={linktreeImg}
         />
         <ProjectCard
-          title="Linktree Clone"
-          link="/projects/linktree"
-          img={linktreeImg}
-        />
-        <ProjectCard
-          title="Linktree Clone"
-          link="/projects/linktree"
-          img={linktreeImg}
+          title="My Personal Site"
+          link="/projects/portfolio"
+          img={homeImg}
         />
       </div>
     </>
