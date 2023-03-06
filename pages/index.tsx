@@ -18,7 +18,7 @@ export default function Home() {
             <p>I am interested in both Front-End and Back-End technologies.</p>
             <p>
               Currently focused on <span className="green-text">Next.js</span> -
-              framework for <span className="green-text">React</span>
+              framework for <span className="green-text">React.</span>
             </p>
           </div>
           <div

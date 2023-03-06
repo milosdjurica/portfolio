@@ -8,7 +8,7 @@ function MainContainer({ children }: any) {
     bg-black/60
       rounded-2xl shadow-md shadow-[#18D26E]"
       >
-        <div className="p-10 space-y-10">{children}</div>
+        <div className="p-5 md:p-10 space-y-10">{children}</div>
       </div>
     </div>
   );

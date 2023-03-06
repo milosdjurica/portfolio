@@ -23,6 +23,16 @@ function Projects() {
           link="/projects/portfolio"
           img={homeImg}
         />
+        <ProjectCard
+          title="My Personal Site"
+          link="/projects/portfolio"
+          img={homeImg}
+        />
+        <ProjectCard
+          title="Linktree Clone"
+          link="/projects/linktree"
+          img={linktreeImg}
+        />
       </div>
     </>
   );
