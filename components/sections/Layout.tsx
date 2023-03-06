@@ -27,7 +27,6 @@ function Layout({ children }: any) {
       <div className="relative min-h-screen">
         <Header />
         <Image
-          // stars or feather ronaldo
           src={stars}
           fill
           priority
