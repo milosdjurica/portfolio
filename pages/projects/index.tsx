@@ -27,16 +27,6 @@ function Projects() {
           link="/projects/linktree"
           img={linktreeImg}
         />
-        <ProjectCard
-          title="Linktree Clone"
-          link="/projects/linktree"
-          img={linktreeImg}
-        />
-        <ProjectCard
-          title="Linktree Clone"
-          link="/projects/linktree"
-          img={linktreeImg}
-        />
       </div>
     </>
   );

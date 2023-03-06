@@ -12,18 +12,14 @@
 }
 
 @layer components {
-  .themeChanger {
-    @apply rounded-full flex justify-center items-center
-    bg-gray-300 dark:bg-gray-700;
-  }
 }
 
 @layer utilities {
   .green-text {
-    @apply  text-[#18D26E]
+    @apply text-[#18D26E]
     /* text-green-600 dark:text-[#29ff30] */;
   }
-  .green-underline{
-    @apply border-b-2 border-[#18D26E]
+  .green-underline {
+    @apply border-b-2 border-[#18D26E];
   }
 }

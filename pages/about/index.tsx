@@ -1,7 +1,7 @@
 import TitleAndIcons from "@/components/TitleAndIcons";
 import Image from "next/image";
 import React from "react";
-import AboutText from "@/components/AboutText";
+import AboutText from "@/components/about/AboutText";
 import laptopImg from "@/public/assets/laptop.jpg";
 
 function About() {
