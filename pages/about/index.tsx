@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import AboutText from "@/components/about/AboutText";
 import laptopImg from "@/public/assets/laptop.jpg";
+import Language from "@/components/about/Language";
 
 function About() {
   return (
@@ -17,6 +18,7 @@ function About() {
           alt="Picture of me"
         />
         <AboutText />
+        <Language />
       </div>
     </>
   );
