@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import React from "react";
 import Header from "./Header";
 import MainContainer from "./MainContainer";
-import laptopImg from "@/public/assets/przemyslaw-marczynski-T_tg8VcDLJ8-unsplash.jpg";
+import stars from "@/public/assets/stars.jpg";
 
 function Layout({ children }: any) {
   const router = useRouter();
@@ -27,7 +27,8 @@ function Layout({ children }: any) {
       <div className="relative">
         <Header />
         <Image
-          src={laptopImg}
+          // stars or feather ronaldo
+          src={stars}
           fill
           priority
           style={{

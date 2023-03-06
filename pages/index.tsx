@@ -26,7 +26,9 @@ export default function Home() {
             flex flex-col md:flex-row justify-center md:justify-start items-start"
           >
             <Link
-              className="w-[250px] p-4 flex justify-center items-center
+              // !buttons are different size, but this works on GALAXY FOLD
+              // !dont want to fix them to lower size since then text goes in 2 rows
+              className="max-w-[250px] min-w-[200px] p-4 flex justify-center items-center
               shadow-sm shadow-[#18D26E] rounded-lg 
               hover:green-text hover:scale-105 ease-in duration-200"
               href="/about"
@@ -34,7 +36,7 @@ export default function Home() {
               Learn more about me
             </Link>
             <Link
-              className="w-[250px] p-4 flex justify-center items-center
+              className="max-w-[250px] min-w-[200px] p-4 flex justify-center items-center
               shadow-sm shadow-[#18D26E] rounded-lg 
               hover:green-text hover:scale-105 ease-in duration-200"
               href="/projects"

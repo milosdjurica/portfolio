@@ -4,7 +4,7 @@ function MainContainer({ children }: any) {
   return (
     <div className="flex justify-center items-center mb-20">
       <div
-        className="w-full sm:w-[90%] min-h-[80vh] 
+        className="w-[95%] sm:w-[90%] min-h-[80vh] 
     bg-black/60
       rounded-2xl shadow-md shadow-[#18D26E]"
       >

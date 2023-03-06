@@ -20,7 +20,9 @@ function ProjectCard({ link, title, img }: Props) {
         <Link
           href={link}
           className="cursor-pointer px-4 py-2 rounded-lg font-bold text-xl 
-          shadow-lg shadow-green-500"
+          shadow-lg shadow-green-500
+          hover:scale-105 ease-in duration-200
+          "
         >
           See more
         </Link>
