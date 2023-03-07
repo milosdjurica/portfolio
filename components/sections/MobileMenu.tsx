@@ -28,7 +28,7 @@ function MobileMenu() {
               </div>
 
               <div
-                className="space-y-8 text-2xl font-bold
+                className="space-y-8 text-2xl font-semibold
               flex flex-col justify-start items-start 
               "
               >

@@ -8,7 +8,7 @@ export default function Home() {
 
       <div className="space-y-5">
         <h3 className="green-text font-semibold text-3xl">Miloš Đurica</h3>
-        <div className="space-y-20 ">
+        <div className="space-y-10 md:space-y-20">
           <div className="space-y-2 text-lg md:w-[80%]">
             <p>
               Hi there! I am
@@ -22,26 +22,23 @@ export default function Home() {
             </p>
           </div>
           <div
-            className="md:space-x-10 space-y-10 md:space-y-0 
-            flex flex-col md:flex-row justify-center md:justify-start items-start"
+            className="space-x-10 flex justify-start"
           >
             <Link
-              // !buttons are different size, but this works on GALAXY FOLD
-              // !dont want to fix them to lower size since then text goes in 2 rows
-              className="max-w-[250px] min-w-[200px] p-4 flex justify-center items-center
+              className="p-3 flex justify-center items-center
               shadow-sm shadow-[#18D26E] rounded-lg 
               hover:green-text hover:scale-105 ease-in duration-200"
               href="/about"
             >
-              Learn more about me
+              About Me
             </Link>
             <Link
-              className="max-w-[250px] min-w-[200px] p-4 flex justify-center items-center
+              className="p-3 flex justify-center items-center
               shadow-sm shadow-[#18D26E] rounded-lg 
               hover:green-text hover:scale-105 ease-in duration-200"
               href="/projects"
             >
-              Check out my projects
+              My Projects
             </Link>
           </div>
         </div>
