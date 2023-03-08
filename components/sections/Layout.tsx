@@ -5,12 +5,32 @@ import React from "react";
 import Header from "./Header";
 import MainContainer from "./MainContainer";
 import stars from "@/public/assets/stars.jpg";
+import Link from "next/link";
 
 function Layout({ children }: any) {
   const router = useRouter();
   const is404 = router.pathname === "/_error";
 
-  if (is404) return <>Not found!</>;
+  if (is404)
+    return (
+      <>
+        <div
+          className="
+        h-screen p-10 text-center space-y-10
+        flex flex-col justify-center items-center 
+        "
+        >
+          <h3>The page you are looking for is not found!</h3>
+          <Link
+            className="shadow-lg shadow-[#18D26E] p-4 rounded-xl 
+            hover:scale-105 duration-200"
+            href="/"
+          >
+            Go back to home page
+          </Link>
+        </div>
+      </>
+    );
 
   return (
     <>
