@@ -24,7 +24,7 @@ function Linktree() {
             <h4 className="text-2xl green-underline font-bold inline-block">
               ABOUT PROJECT
             </h4>
-            <p className="w-1/2">
+            <p className="w-[90%]">
               This was a simple project but an interesting one. In this project
               i learned how to deploy project on vercel.
             </p>

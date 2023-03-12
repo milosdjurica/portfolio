@@ -3,6 +3,7 @@ import React from "react";
 import ProjectCard from "@/components/project/ProjectCard";
 import linktreeImg from "@/public/assets/linktree/linktree.png";
 import homeImg from "@/public/assets/portfolio/home.png";
+import weatherImg from "@/public/assets/weather-app/weather.png";
 
 function Projects() {
   return (
@@ -22,6 +23,11 @@ function Projects() {
           title="My Personal Site"
           link="/projects/portfolio"
           img={homeImg}
+        />
+        <ProjectCard
+          title="Weather App"
+          link="/projects/weather-app"
+          img={weatherImg}
         />
       </div>
     </>

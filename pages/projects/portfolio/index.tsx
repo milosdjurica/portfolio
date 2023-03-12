@@ -24,11 +24,11 @@ function Portfolio() {
             <h4 className="text-2xl green-underline font-bold inline-block">
               ABOUT PROJECT
             </h4>
-            <p className="w-1/2">
+            <p className="w-[90%]">
               This is my personal site which contains information about me, my
               projects and skills.
             </p>
-            <p className="w-1/2">
+            <p className="w-[90%]">
               Well, what else to say? You are already on this project, feel free
               to explore!
             </p>
