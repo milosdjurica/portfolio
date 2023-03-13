@@ -15,15 +15,13 @@ export default function Home() {
               <span className="green-text"> software developer </span>from
               Serbia.
             </p>
-            <p>I am interested in both Front-End and Back-End technologies.</p>
+            <p>Interested in both Front-End and Back-End technologies.</p>
             <p>
-              Currently focused on <span className="green-text">Next.js</span> -
-              framework for <span className="green-text">React.</span>
+              Mainly focused on{" "}
+              <span className="green-text">React/Next.js</span>
             </p>
           </div>
-          <div
-            className="space-x-10 flex justify-start"
-          >
+          <div className="space-x-10 flex justify-start">
             <Link
               className="p-3 flex justify-center items-center
               shadow-sm shadow-[#18D26E] rounded-lg 

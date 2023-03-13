@@ -1,9 +1,10 @@
 import TitleAndIcons from "@/components/TitleAndIcons";
 import Image from "next/image";
 import React from "react";
-import AboutText from "@/components/about/AboutText";
 import laptopImg from "@/public/assets/laptop.jpg";
 import Language from "@/components/about/Language";
+import CodingJourney from "@/components/about/CodingJourney";
+import BasicInfo from "@/components/about/BasicInfo";
 
 function About() {
   return (
@@ -17,7 +18,8 @@ function About() {
           src={laptopImg}
           alt="Picture of me"
         />
-        <AboutText />
+        <BasicInfo />
+        <CodingJourney />
         <Language />
       </div>
     </>

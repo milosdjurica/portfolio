@@ -12,12 +12,15 @@ function Language() {
         <p>
           I can also speak a little bit of{" "}
           <span className="green-text">Russian</span> since I had Russian
-          classes in my elementary and middle school for 8 years!😅
+          classes in my elementary and middle school for 8 years!
         </p>
         <p>
-          Oh yeah, I almost forgot! 2 years ago I started learning{" "}
-          <span className="green-text">Spanish</span>, and I am in love with it
-          ever since! 😍
+          2 years ago I started learning{" "}
+          <span className="green-text">Spanish</span> on the application called
+          Duolingo. Since i am very passionate about Spanish, i do at least one
+          lesson per day. Lesson includes reading, writing, listening and
+          speaking exercises. I have been doing that for{" "}
+          <span className="green-text">500+ consecutive days.</span>
         </p>
       </div>
     </div>
