@@ -13,7 +13,6 @@ function Databases() {
         <IconHolder title="MongoDB" icon={<MongoDBIcon />} />
         <IconHolder title="MySQL" icon={<MySQLIcon />} />
         <IconHolder title="PostgreSQL" icon={<PostgreSQLIcon />} />
-        <IconHolder title="Firebase" icon={<FirebaseIcon />} />
       </div>
     </div>
   );

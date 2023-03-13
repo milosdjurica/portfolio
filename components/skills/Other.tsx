@@ -15,7 +15,6 @@ function Other() {
         <IconHolder title="Git" icon={<GitIcon />} />
         <IconHolder title="Github" icon={<GithubIcon />} />
         <IconHolder title="Postman" icon={<PostmanIcon />} />
-        <IconHolder title="Linux" icon={<LinuxIcon />} />
       </div>
     </div>
   );
