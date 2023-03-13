@@ -23,7 +23,7 @@ function CodingJourney() {
         <p>
           Now, i am focused on creating{" "}
           <span className="green-text">front-end TypeScript</span> applications
-          with <span className="green-text">React/Next.js</span>.
+          with <span className="green-text">React/Next.js.</span>
         </p>
         <p>
           I also have some experience in building REST API with{" "}

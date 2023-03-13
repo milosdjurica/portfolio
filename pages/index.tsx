@@ -18,7 +18,7 @@ export default function Home() {
             <p>Interested in both Front-End and Back-End technologies.</p>
             <p>
               Mainly focused on{" "}
-              <span className="green-text">React/Next.js</span>
+              <span className="green-text">React/Next.js.</span>
             </p>
           </div>
           <div className="space-x-10 flex justify-start">
