@@ -4,6 +4,7 @@ import ProjectCard from "@/components/project/ProjectCard";
 import linktreeImg from "@/public/assets/linktree/linktree.png";
 import homeImg from "@/public/assets/portfolio/home.png";
 import weatherImg from "@/public/assets/weather-app/weather.png";
+import moviesImg from "@/public/assets/movies-app/big-picture.png";
 
 function Projects() {
   return (
@@ -15,9 +16,9 @@ function Projects() {
         grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
       >
         <ProjectCard
-          title="Linktree Clone"
-          link="/projects/linktree"
-          img={linktreeImg}
+          title="Movies App"
+          link="/projects/movies"
+          img={moviesImg}
         />
         <ProjectCard
           title="My Personal Site"
@@ -28,6 +29,11 @@ function Projects() {
           title="Weather App"
           link="/projects/weather-app"
           img={weatherImg}
+        />
+        <ProjectCard
+          title="Linktree Clone"
+          link="/projects/linktree"
+          img={linktreeImg}
         />
       </div>
     </>

@@ -1,7 +1,6 @@
 import DemoCodeProject from "@/components/project/DemoCodeProject";
 import TechnologiesUsed from "@/components/project/TechnologiesUsed";
 import TitleAndIcons from "@/components/TitleAndIcons";
-import React from "react";
 import homeImg from "@/public/assets/portfolio/home.png";
 
 function Portfolio() {

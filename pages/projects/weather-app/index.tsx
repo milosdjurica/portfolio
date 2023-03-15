@@ -1,7 +1,6 @@
 import DemoCodeProject from "@/components/project/DemoCodeProject";
 import TechnologiesUsed from "@/components/project/TechnologiesUsed";
 import TitleAndIcons from "@/components/TitleAndIcons";
-import React from "react";
 import weatherImg from "@/public/assets/weather-app/weather.png";
 
 function Portfolio() {
@@ -33,14 +32,21 @@ function Portfolio() {
               App gives information about{" "}
               <span className="green-text">current weather</span>, and
               information about next 2 days. User can see a weather for all 3
-              days, and <span className="green-text">EVERY HOUR </span>
+              days, and for <span className="green-text">EVERY HOUR </span>
               he wants in those
               <span className="green-text"> 3 days</span>.
             </p>
           </div>
 
           <TechnologiesUsed
-            technologies={["Next.js", "React", "Tailwind", "Vercel", "Zustand"]}
+            technologies={[
+              "Next.js",
+              "React",
+              "Tailwind",
+              "Vercel",
+              "Zustand",
+              "Weather API",
+            ]}
           />
         </div>
       </div>

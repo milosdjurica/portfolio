@@ -1,5 +1,4 @@
 import TitleAndIcons from "@/components/TitleAndIcons";
-import React from "react";
 import linktreeImg from "@/public/assets/linktree/linktree.png";
 import TechnologiesUsed from "@/components/project/TechnologiesUsed";
 import DemoCodeProject from "@/components/project/DemoCodeProject";
