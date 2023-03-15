@@ -10,9 +10,9 @@ function Language() {
           <span className="green-text">fluent in English.</span>
         </p>
         <p>
-          I can also speak a little bit of{" "}
-          <span className="green-text">Russian</span> since I had Russian
-          classes in my elementary and middle school for 8 years!
+          I have basic knowledge of
+          <span className="green-text"> Russian</span> since I had Russian
+          classes in my elementary and middle school for 8 years.
         </p>
         <p>
           2 years ago I started learning{" "}

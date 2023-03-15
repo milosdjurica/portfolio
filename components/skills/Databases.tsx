@@ -12,7 +12,7 @@ function Databases() {
       <div className="flex flex-wrap justify-center items-center">
         <IconHolder title="MongoDB" icon={<MongoDBIcon />} />
         <IconHolder title="MySQL" icon={<MySQLIcon />} />
-        <IconHolder title="PostgreSQL" icon={<PostgreSQLIcon />} />
+        {/* <IconHolder title="PostgreSQL" icon={<PostgreSQLIcon />} /> */}
       </div>
     </div>
   );
