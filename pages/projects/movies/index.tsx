@@ -24,24 +24,33 @@ function Movies() {
               ABOUT PROJECT
             </h4>
             <p className="w-[90%]">
-              This project is using TMDB API. UI is similar to Neftlix. Project
-              is created for learning purposes only.
+              This project is using TMDB API. UI is similar to Neftlix. User can
+              click on a specific movie and see more info about it, as well as
+              the trailer from YouTube.
             </p>
+            <p>Project is created for learning purposes only.</p>
             <p>
               Some ideas to improve project are:
               <ul>
                 <li>1. Add option to save specific movie/tv show</li>
                 <li>2. Search movie/tv show by title</li>
                 <li>
-                  3. Search for actor and then list every movie/tv show that actor
-                  has played in
+                  3. Search for actor and then list every movie/tv show that
+                  actor has played in
                 </li>
               </ul>
             </p>
           </div>
 
           <TechnologiesUsed
-            technologies={["Next.js", "React", "Tailwind", "TMDB API"]}
+            technologies={[
+              "Next.js",
+              "React",
+              "Tailwind",
+              "TMDB API",
+              "Recoil",
+              "React Player",
+            ]}
           />
         </div>
       </div>
