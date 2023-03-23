@@ -1,7 +1,7 @@
 import TitleAndIcons from "@/components/TitleAndIcons";
 import Image from "next/image";
 import React from "react";
-import laptopImg from "@/public/assets/laptop.jpg";
+import myPic from "@/public/assets/my-pic.png";
 import Language from "@/components/about/Language";
 import CodingJourney from "@/components/about/CodingJourney";
 import BasicInfo from "@/components/about/BasicInfo";
@@ -13,9 +13,9 @@ function About() {
 
       <div className="flex flex-col space-y-10">
         <Image
-          className="mx-auto md:w-2/3 lg:w-1/2
+          className="mx-auto w-1/3 md:w-1/4
           rounded-lg shadow-sm shadow-[#18D26E]"
-          src={laptopImg}
+          src={myPic}
           alt="Picture of me"
         />
         <BasicInfo />

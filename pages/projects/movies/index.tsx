@@ -24,7 +24,7 @@ function Movies() {
               ABOUT PROJECT
             </h4>
             <p className="w-[90%]">
-              This project is using TMDB API. UI is similar to Neftlix. User can
+              This project is using TMDB API. UI is similar to Netflix. User can
               click on a specific movie and see more info about it, as well as
               the trailer from YouTube.
             </p>
