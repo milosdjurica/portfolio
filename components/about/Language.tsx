@@ -20,7 +20,7 @@ function Language() {
           Duolingo. Since i am very passionate about Spanish, i do at least one
           lesson per day. Lesson includes reading, writing, listening and
           speaking exercises. I have been doing that for{" "}
-          <span className="green-text">500+ consecutive days.</span>
+          <span className="green-text">600+ consecutive days.</span>
         </p>
       </div>
     </div>
