@@ -3,14 +3,14 @@ import React from "react";
 
 type Props = {
   image: StaticImageData;
-  demo: string,
-  code: string
+  demo: string;
+  code: string;
 };
 
 function DemoCodeProject(props: Props) {
   return (
     <div
-      className="flex flex-col lg:flex-row 
+      className="flex flex-col 
       justify-around items-center 
       space-y-10"
     >
@@ -19,12 +19,7 @@ function DemoCodeProject(props: Props) {
         alt="Image of my personal site"
         className="md:w-2/3 lg:w-1/2 rounded-xl shadow-md shadow-green-500"
       />
-      <div
-        className="space-x-10 sm:space-x-20 
-        lg:space-x-0 lg:space-y-20
-        flex lg:flex-col
-      "
-      >
+      <div className="space-x-10 sm:space-x-20 flex">
         <a href={props.demo}>
           <h6
             className="w-[80px] sm:w-[120px] rounded-xl py-2 

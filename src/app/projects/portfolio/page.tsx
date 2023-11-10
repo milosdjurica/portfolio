@@ -15,19 +15,16 @@ function Portfolio() {
           code="https://github.com/milosdjurica/portfolio"
         />
 
-        <div
-          className="space-y-10 md:space-y-0
-        flex flex-col md:flex-row justify-around"
-        >
+        <div className="space-y-10 flex flex-col justify-around">
           <div className="space-y-5 w-full">
             <h4 className="text-2xl green-underline font-bold inline-block">
               ABOUT PROJECT
             </h4>
-            <p className="w-[90%]">
+            <p>
               This is my personal site which contains information about me, my
               projects and skills.
             </p>
-            <p className="w-[90%]">
+            <p>
               Well, what else to say? You are already on this project, feel free
               to explore!
             </p>

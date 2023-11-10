@@ -12,13 +12,10 @@ function Portfolio() {
         <DemoCodeProject
           image={weatherImg}
           demo="https://weather-app-milosdjurica.vercel.app/"
-          code="https://github.com/milosdjurica/weather-app-nextjs"
+          code="https://github.com/milosdjurica/weather-app"
         />
 
-        <div
-          className="space-y-10 md:space-y-0
-        flex flex-col md:flex-row justify-around"
-        >
+        <div className="space-y-10 flex flex-col justify-around">
           <div className="space-y-5 w-full">
             <h4 className="text-2xl green-underline font-bold inline-block">
               ABOUT PROJECT

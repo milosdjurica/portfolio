@@ -7,7 +7,7 @@ type Props = {
 
 function TechnologiesUsed({ technologies }: Props) {
   return (
-    <div className="space-y-5 w-full lg:w-1/2">
+    <div className="space-y-5 w-full">
       <h3 className="text-2xl green-underline font-bold">TECHNOLOGIES USED</h3>
 
       <div className="grid grid-cols-1 md:grid-cols-2">

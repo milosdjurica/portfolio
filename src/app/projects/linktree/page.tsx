@@ -15,17 +15,14 @@ function Linktree() {
           code="https://github.com/milosdjurica/nextjs-linktree"
         />
 
-        <div
-          className="space-y-10 md:space-y-0
-        flex flex-col md:flex-row justify-around"
-        >
+        <div className="space-y-10 flex flex-col justify-around">
           <div className="space-y-5 w-full">
             <h4 className="text-2xl green-underline font-bold inline-block">
               ABOUT PROJECT
             </h4>
-            <p className="w-[90%]">
-              This was a simple project but an interesting one. In this project
-              i learned how to deploy project on vercel.
+            <p>
+              This was a simple project but an interesting one. By building the
+              Linktree clone i learned how to deploy project on Vercel.
             </p>
           </div>
 
