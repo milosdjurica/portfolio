@@ -1,15 +1,15 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
 import React, { useState } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { FiMenu, FiXCircle } from "react-icons/fi";
+
 import Icons from "../Icons";
 import { links } from "@/src/constants/links";
 
 function MobileMenu() {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
-  const router = useRouter();
 
   const pathname = usePathname();
 

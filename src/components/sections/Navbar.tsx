@@ -1,12 +1,11 @@
 "use client";
 
-import { links } from "@/constants/links";
+import { links } from "@/src/constants/links";
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import React from "react";
 
 function Navbar() {
-  const router = useRouter();
   const pathname = usePathname();
   const baseClassName = "font-bold cursor-pointer lg:text-lg";
 

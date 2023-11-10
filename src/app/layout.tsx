@@ -31,15 +31,10 @@ export default async function RootLayout({
           <Header />
           <Image
             src={stars}
+            alt="Background stars image"
             fill
             priority
-            style={{
-              // !cover ostaje ista, contain se smanjuje sa ekranom
-              objectFit: "cover",
-            }}
-            className="fixed top-0 left-0 
-          -z-10"
-            alt="Background Laptop image"
+            className="fixed top-0 left-0 object-cover -z-10"
           />
           <MainContainer className="mb-10">{children}</MainContainer>
         </div>
