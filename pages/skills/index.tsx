@@ -13,9 +13,12 @@ function Skills() {
 
       <div className="flex flex-col justify-center items-center  space-y-10">
         <Frontend />
+        {/* // TODO add SpringBoot */}
         <Backend />
         <ProgrammingLanguages />
+        {/* // TODO add PostgreSQL and Supabase  */}
         <Databases />
+        {/* // TODO add IntelliJ  */}
         <Other />
       </div>
     </>
