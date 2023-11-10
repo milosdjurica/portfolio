@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Inter, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import stars from "public/assets/stars.jpg";
 import Header from "../components/sections/Header";
 import Image from "next/image";
 import MainContainer from "../components/sections/MainContainer";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 const font = Poppins({
   subsets: ["latin"],
@@ -26,7 +26,7 @@ export default async function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={font.className}>
         <div className="relative min-h-screen">
           <Header />
           <Image
