@@ -1,7 +1,7 @@
-import TitleAndIcons from "@/components/TitleAndIcons";
 import linktreeImg from "@/public/assets/linktree/linktree.png";
-import TechnologiesUsed from "@/components/project/TechnologiesUsed";
-import DemoCodeProject from "@/components/project/DemoCodeProject";
+import TitleAndIcons from "@/src/components/TitleAndIcons";
+import DemoCodeProject from "@/src/components/project/DemoCodeProject";
+import TechnologiesUsed from "@/src/components/project/TechnologiesUsed";
 
 function Linktree() {
   return (

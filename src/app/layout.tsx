@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
-import stars from "@/public/assets/stars.jpg";
+import stars from "public/assets/stars.jpg";
 import Header from "../components/sections/Header";
 import Image from "next/image";
 import MainContainer from "../components/sections/MainContainer";

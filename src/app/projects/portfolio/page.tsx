@@ -1,7 +1,7 @@
-import DemoCodeProject from "@/components/project/DemoCodeProject";
-import TechnologiesUsed from "@/components/project/TechnologiesUsed";
-import TitleAndIcons from "@/components/TitleAndIcons";
 import homeImg from "@/public/assets/portfolio/home.png";
+import TitleAndIcons from "@/src/components/TitleAndIcons";
+import DemoCodeProject from "@/src/components/project/DemoCodeProject";
+import TechnologiesUsed from "@/src/components/project/TechnologiesUsed";
 
 function Portfolio() {
   return (

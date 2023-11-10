@@ -3,6 +3,7 @@ import IconHolder from "./IconHolder";
 import ExpressIcon from "./skillsIcons/ExpressIcon";
 import NestjsIcon from "./skillsIcons/NestjsIcon";
 import NodejsIcon from "./skillsIcons/NodejsIcon";
+import SpringBootIcon from "./skillsIcons/SpringBootIcon";
 
 function Backend() {
   return (
@@ -12,6 +13,7 @@ function Backend() {
         <IconHolder title="NestJS" icon={<NestjsIcon />} />
         <IconHolder title="Express" icon={<ExpressIcon />} />
         <IconHolder title="Node.js" icon={<NodejsIcon />} />
+        <IconHolder title="SpringBoot" icon={<SpringBootIcon />} />
       </div>
     </div>
   );

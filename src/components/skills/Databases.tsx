@@ -1,9 +1,9 @@
 import React from "react";
 import IconHolder from "./IconHolder";
-import FirebaseIcon from "./skillsIcons/FirebaseIcon";
 import MongoDBIcon from "./skillsIcons/MongoDBIcon";
 import MySQLIcon from "./skillsIcons/MySQLIcon";
 import PostgreSQLIcon from "./skillsIcons/PostgreSQLIcon";
+import SupabaseIcon from "./skillsIcons/Supabase";
 
 function Databases() {
   return (
@@ -12,6 +12,9 @@ function Databases() {
       <div className="flex flex-wrap justify-center items-center">
         <IconHolder title="MongoDB" icon={<MongoDBIcon />} />
         <IconHolder title="MySQL" icon={<MySQLIcon />} />
+        <IconHolder title="PostgreSQL" icon={<PostgreSQLIcon />} />
+        <IconHolder title="Supabase" icon={<SupabaseIcon />} />
+
         {/* <IconHolder title="PostgreSQL" icon={<PostgreSQLIcon />} /> */}
       </div>
     </div>

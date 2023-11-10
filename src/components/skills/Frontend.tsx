@@ -1,11 +1,11 @@
 import React from "react";
 import IconHolder from "./IconHolder";
 import CssIcon from "./skillsIcons/CssIcon";
-import HtmlIcon from "./skillsIcons/HtmlIcon";
 import JavascriptIcon from "./skillsIcons/JavascriptIcon";
 import NextjsIcon from "./skillsIcons/NextjsIcon";
 import ReactIcon from "./skillsIcons/ReactIcon";
 import TailwindIcon from "./skillsIcons/TailwindIcon";
+import HtmlIcon from "./skillsIcons/HtmlIcon";
 
 function Frontend() {
   return (

@@ -1,7 +1,7 @@
-import DemoCodeProject from "@/components/project/DemoCodeProject";
-import TechnologiesUsed from "@/components/project/TechnologiesUsed";
-import TitleAndIcons from "@/components/TitleAndIcons";
 import moviesImg from "@/public/assets/movies-app/big-picture.png";
+import TitleAndIcons from "@/src/components/TitleAndIcons";
+import DemoCodeProject from "@/src/components/project/DemoCodeProject";
+import TechnologiesUsed from "@/src/components/project/TechnologiesUsed";
 
 function Movies() {
   return (
