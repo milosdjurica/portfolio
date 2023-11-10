@@ -1,9 +1,9 @@
-import Backend from "@/components/skills/Backend";
-import Databases from "@/components/skills/Databases";
-import Frontend from "@/components/skills/Frontend";
-import Other from "@/components/skills/Other";
-import ProgrammingLanguages from "@/components/skills/ProgrammingLanguages";
-import TitleAndIcons from "@/components/TitleAndIcons";
+import TitleAndIcons from "@/src/components/TitleAndIcons";
+import Backend from "@/src/components/skills/Backend";
+import Databases from "@/src/components/skills/Databases";
+import Frontend from "@/src/components/skills/Frontend";
+import Other from "@/src/components/skills/Other";
+import ProgrammingLanguages from "@/src/components/skills/ProgrammingLanguages";
 import React from "react";
 
 function Skills() {

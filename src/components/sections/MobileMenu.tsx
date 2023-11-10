@@ -1,6 +1,8 @@
+"use client";
+
 import { links } from "@/constants/links";
 import Link from "next/link";
-import { useRouter } from "next/router";
+import { usePathname, useRouter } from "next/navigation";
 import React, { useState } from "react";
 import { FiMenu, FiXCircle } from "react-icons/fi";
 import Icons from "../Icons";
@@ -8,6 +10,8 @@ import Icons from "../Icons";
 function MobileMenu() {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
   const router = useRouter();
+
+  const pathname = usePathname();
 
   return (
     <div className="md:hidden">
@@ -33,7 +37,7 @@ function MobileMenu() {
               "
               >
                 {links.map((link): any => {
-                  if (router.pathname === link.url) {
+                  if (pathname === link.url) {
                     return (
                       <h3 key={link.url} className="green-text">
                         {link.title}

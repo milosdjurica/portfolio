@@ -1,10 +1,13 @@
+"use client";
+
 import { links } from "@/constants/links";
 import Link from "next/link";
-import { useRouter } from "next/router";
+import { usePathname, useRouter } from "next/navigation";
 import React from "react";
 
 function Navbar() {
   const router = useRouter();
+  const pathname = usePathname();
   const baseClassName = "font-bold cursor-pointer lg:text-lg";
 
   return (
@@ -15,7 +18,7 @@ function Navbar() {
             <Link key={el.url} href={el.url}>
               <li
                 className={
-                  router.pathname === el.url
+                  pathname === el.url
                     ? "green-underline " + baseClassName
                     : baseClassName
                 }

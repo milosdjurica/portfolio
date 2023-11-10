@@ -1,10 +1,7 @@
-import TitleAndIcons from "@/components/TitleAndIcons";
-// import Image from "next/image";
-import React from "react";
-// import myPic from "@/public/assets/my-pic.png";
-import Language from "@/components/about/Language";
-import CodingJourney from "@/components/about/CodingJourney";
-import BasicInfo from "@/components/about/BasicInfo";
+import TitleAndIcons from "@/src/components/TitleAndIcons";
+import BasicInfo from "@/src/components/about/BasicInfo";
+import CodingJourney from "@/src/components/about/CodingJourney";
+import Language from "@/src/components/about/Language";
 
 function About() {
   return (

@@ -1,5 +1,5 @@
-import TitleAndIcons from "@/components/TitleAndIcons";
 import Link from "next/link";
+import TitleAndIcons from "../components/TitleAndIcons";
 
 export default function Home() {
   return (
