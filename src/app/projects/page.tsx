@@ -1,8 +1,9 @@
 import React from "react";
-import linktreeImg from "@/public/assets/linktree/linktree.png";
 import homeImg from "@/public/assets/portfolio/home.png";
 import weatherImg from "@/public/assets/weather-app/weather.png";
 import moviesImg from "@/public/assets/movies-app/big-picture.png";
+import translatorImg from "@/public/assets/translator/translator.png";
+
 import TitleAndIcons from "@/src/components/TitleAndIcons";
 import ProjectCard from "@/src/components/project/ProjectCard";
 
@@ -26,14 +27,14 @@ function Projects() {
           img={weatherImg}
         />
         <ProjectCard
+          title="Language Translating App"
+          link="/projects/translator"
+          img={translatorImg}
+        />
+        <ProjectCard
           title="My Personal Site"
           link="/projects/portfolio"
           img={homeImg}
-        />
-        <ProjectCard
-          title="Linktree Clone"
-          link="/projects/linktree"
-          img={linktreeImg}
         />
       </div>
     </>
