@@ -21,14 +21,14 @@ function Projects() {
           img={moviesImg}
         />
         <ProjectCard
-          title="My Personal Site"
-          link="/projects/portfolio"
-          img={homeImg}
-        />
-        <ProjectCard
           title="Weather App"
           link="/projects/weather-app"
           img={weatherImg}
+        />
+        <ProjectCard
+          title="My Personal Site"
+          link="/projects/portfolio"
+          img={homeImg}
         />
         <ProjectCard
           title="Linktree Clone"
