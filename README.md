@@ -59,9 +59,6 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-    </li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -80,7 +77,7 @@ There are many great portfolio templates available. However, I wanted to create 
 
 - [![Next][Next.js]][Next-url]
 - [![React][React.js]][React-url]
-- [![Tailwind][Tailwind.com]][Tailwind-url]
+- [![Tailwind][TailwindCss]][Tailwind-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,7 +87,7 @@ There are many great portfolio templates available. However, I wanted to create 
 
 Your Name - [My LinkedIn](https://www.linkedin.com/in/milosdjurica/) - milosdjurica.work@gmail.com
 
-Project Link: [https://github.com/milosdjurica/portfolio](https://portfolio-milosdjurica.vercel.app/)
+Project Link: [https://portfolio-milosdjurica.vercel.app/](https://portfolio-milosdjurica.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,7 +121,7 @@ Project Link: [https://github.com/milosdjurica/portfolio](https://portfolio-milo
 [Svelte-url]: https://svelte.dev/
 [Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
 [Laravel-url]: https://laravel.com
-[Tailwind.com]: https://example.com
+[TailwindCSS]: https://img.shields.io/badge/tailwind-css-blue?style=for-the-badge&logo=tailwind-css&logoColor=white
 [Tailwind-url]: https://tailwindcss.com/
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com
