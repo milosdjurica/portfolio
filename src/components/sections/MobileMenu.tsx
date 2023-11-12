@@ -3,6 +3,7 @@ export default MobileMenu;
 import {
   DropdownMenu,
   DropdownMenuContent,
+  DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/src/components/ui/dropdown-menu";
 import { links } from "@/src/constants/links";
@@ -31,15 +32,17 @@ export function MobileMenu() {
           <Icons />
         </div>
         {links.map((link) => (
-          <Link
+          <DropdownMenuItem
+            asChild
             key={link.url}
-            href={link.url}
             className={`${
               pathname === link.url ? "text-[#17D26E]" : ""
             } text-lg p-3 hover:text-[#17D26E] font-semibold`}
           >
-            <span>{link.title}</span>
-          </Link>
+            <Link href={link.url}>
+              <span>{link.title}</span>
+            </Link>
+          </DropdownMenuItem>
         ))}
       </DropdownMenuContent>
     </DropdownMenu>

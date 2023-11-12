@@ -22,14 +22,14 @@ function Projects() {
           img={moviesImg}
         />
         <ProjectCard
-          title="Weather App"
-          link="/projects/weather-app"
-          img={weatherImg}
-        />
-        <ProjectCard
           title="Language Translating App"
           link="/projects/translator"
           img={translatorImg}
+        />
+        <ProjectCard
+          title="Weather App"
+          link="/projects/weather-app"
+          img={weatherImg}
         />
         <ProjectCard
           title="My Personal Site"
