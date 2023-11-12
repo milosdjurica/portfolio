@@ -77,7 +77,7 @@ There are many great portfolio templates available. However, I wanted to create 
 
 - [![Next][Next.js]][Next-url]
 - [![React][React.js]][React-url]
-- [![Tailwind][TailwindCss]][Tailwind-url]
+- [![Tailwind][TailwindCSS]][Tailwind-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,7 +121,7 @@ Project Link: [https://portfolio-milosdjurica.vercel.app/](https://portfolio-mil
 [Svelte-url]: https://svelte.dev/
 [Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
 [Laravel-url]: https://laravel.com
-[TailwindCSS]: https://img.shields.io/badge/tailwind-css-blue?style=for-the-badge&logo=tailwind-css&logoColor=white
+[TailwindCSS]: https://img.shields.io/badge/tailwind-css-blue?style=for-the-badge&logo=tailwind-css
 [Tailwind-url]: https://tailwindcss.com/
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com
