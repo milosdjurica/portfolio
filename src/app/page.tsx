@@ -12,8 +12,8 @@ export default function Home() {
           <div className="space-y-2 text-lg md:w-[80%]">
             <p>
               Hi there! I am
-              <span className="green-text"> software developer </span>from
-              Serbia.
+              <span className="green-text"> software developer </span>from Novi
+              Sad, Serbia.
             </p>
             <p>Interested in both Front-End and Back-End technologies.</p>
             <p>
