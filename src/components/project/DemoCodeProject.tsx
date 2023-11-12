@@ -20,7 +20,7 @@ function DemoCodeProject(props: Props) {
         className="md:w-2/3 lg:w-1/2 rounded-xl shadow-md shadow-green-500"
       />
       <div className="space-x-10 sm:space-x-20 flex">
-        <a href={props.demo}>
+        <a href={props.demo} target="_blank" rel="noopener noreferrer">
           <h6
             className="w-[80px] sm:w-[120px] rounded-xl py-2 
             text-center green-text font-bold tracking-wide
@@ -29,7 +29,7 @@ function DemoCodeProject(props: Props) {
             DEMO
           </h6>
         </a>
-        <a href={props.code}>
+        <a href={props.code} target="_blank" rel="noopener noreferrer">
           <h6
             className="w-[80px] sm:w-[120px] rounded-xl py-2 
             text-center green-text font-bold tracking-wide
