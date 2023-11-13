@@ -12,9 +12,9 @@ function Icons() {
         <a href="https://github.com/milosdjurica">
           <FaGithub className="hover:green-text ease-in duration-200" />
         </a>
-        <a href="https://milosdjurica-linktree.vercel.app/">
+        {/* <a href="https://milosdjurica-linktree.vercel.app/">
           <SiLinktree className="hover:green-text ease-in duration-200" />
-        </a>
+        </a> */}
       </div>
     </>
   );
