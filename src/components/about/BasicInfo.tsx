@@ -10,10 +10,9 @@ function BasicInfo() {
           React/Next.js.
         </p>
         <p>
-          Fourth year student at{" "}
-          <span className="green-text">
-            University of Novi Sad, Faculty of Sciences.
-          </span>
+          Fourth year student of
+          <span className="green-text"> Information Technologies </span>
+          at University of Novi Sad, Faculty of Sciences.
         </p>
         <p>
           I possess the ability to adapt my communication style to diverse
